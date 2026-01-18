@@ -12,7 +12,7 @@ In order to compile .NET Standard libraries, run tests and run the <a href="http
 
 ```sh
 # Linux or MacOS shell. Launches the Avalonia app after build.
-git clone https://github.com/worldbeater/Camelotia
+git clone https://github.com/reactiveui/Camelotia
 cd ./Camelotia && bash ./build.sh --interactive
 ```
 
@@ -22,7 +22,7 @@ On Windows, execute the following command line:
 # Windows command line. Launches the Avalonia app after build.
 # Use the '--full' option to compile Android, UWP and WPF apps as well.
 # Use the '--configuration Release' option to generate app packages.
-git clone https://github.com/worldbeater/Camelotia
+git clone https://github.com/reactiveui/Camelotia
 cd ./Camelotia && powershell -ExecutionPolicy Unrestricted ./build.ps1 --interactive
 ```
 
